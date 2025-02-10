@@ -3,7 +3,7 @@ import Botao from "../Botao";
 import CampoTexto from "../CampoTexto";
 import ListaSuspensa from "../ListaSuspensa";
 import "./formulario.css";
-import TagsIngredientes from "../tags";
+import TagsIngredientes from "../Tags";
 import AreaDeTexto from "../AreaDeTexto";
 
 const Formulario = (props) => {
