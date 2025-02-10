@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Background from "./componentes/Background/index.jsx";
-import Formulario from "./componentes/Formulario/index.jsx";
-import Header from "./componentes/header/index.jsx";
-import TiposDeReceitas from "./componentes/TiposDeReceita/index.jsx";
+import Background from "./componentes/Background";
+import Formulario from "./componentes/Formulario";
+import TituloDoProjeto from "./componentes/Header";
+import TiposDeReceitas from "./componentes/TiposDeReceita";
 
 function App() {
   const categoriaDeComida = [
@@ -52,7 +52,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <TituloDoProjeto />
       <Background categoriaDeComida={categoriaDeComida}/>
       <Formulario
         categoriaDeComida={categoriaDeComida.map((tipo) => tipo.categoria)}

@@ -1,6 +1,6 @@
 import "./header.css"
 
-const Header = () =>{
+const TituloDoProjeto = () =>{
     return(
         <header className="header">
            <div className="background"></div>
@@ -12,4 +12,4 @@ const Header = () =>{
     )
 }
 
-export default Header
+export default TituloDoProjeto
