@@ -1,0 +1,81 @@
+.tags {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .tags label {
+    margin: 0.5rem 0;
+    color: #cc5500;
+  }
+  
+  .tags-input-wrapper {
+    display: flex;
+    width: 100%;
+    position: relative; 
+  }
+  
+  .tags input {
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 0.7rem;
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+  }
+  
+  .tag-botao {
+    padding: 0 0.7rem;
+    margin-left: 0.3rem;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    font-family: var(--fonte-principal);
+    color: #CC5500;
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  .tag-botao:hover {
+    background-color: #b44d00;
+    color: white;
+  }
+
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+  }
+  
+  
+  .tag-ingrediente {
+    display: flex;
+    align-items: center;
+    background-color: #f0e5d8;
+    padding: 0.3rem 0.6rem;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: var(--cor-laranjaescuro);
+  }
+  
+  .tag-ingrediente button {
+    background: none;
+    border: none;
+    color: #cc5500;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 0.8rem;
+  }
+  
+  .tag-ingrediente button:hover {
+    color: #b44d00;
+  }
+  

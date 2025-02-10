@@ -1,0 +1,22 @@
+.Area-de-texto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    grid-column: span 2;
+  }
+  
+  .Area-de-texto label {
+    margin: 0.5rem 0;
+    color: #cc5500;
+  }
+  
+  .Area-de-texto textarea {
+    resize: none !important;
+    min-height: 200px;
+    max-height: 500px;
+    padding:0.3rem;
+    
+  }
+

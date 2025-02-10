@@ -1,0 +1,27 @@
+:root {
+  --cor-laranjaescuro: #bf452a;
+  --cor-bejeclaro: #eade9d;
+  --cor-laranjaclaro: #f26716;
+  --cor-azulescuro: #06192d;
+  --cor-preto: #020e1d;
+  --cor-amarelo:#ffffd2;
+  --cor-amarelopastel:#DB9244;
+  --cor-vermelho:#F91C0A;
+
+  --fonte-principal: "hobeaux", sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--fonte-principal);
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  background-color: var(--cor-amarelopastel);
+  
+}

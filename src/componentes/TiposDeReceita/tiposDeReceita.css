@@ -1,0 +1,21 @@
+.tipos-de-receitas {
+    text-align: center;
+    padding: 32px;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+   
+}
+
+.tipos-de-receitas h2 {
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.tipos-de-receitas .receitas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,11 @@
+.botao{
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color:white;
+    font-family: var(--fonte-principal);
+    margin-top: 20px;
+    color: #CC5500;
+    grid-column: span 2; 
+    cursor: pointer;
+}

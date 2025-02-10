@@ -1,0 +1,50 @@
+.background {
+  display: flex;
+}
+
+.background img {
+  position: relative;
+  height: 100vh;
+  bottom: 20%;
+  right: 11%;
+  z-index: -9999;
+}
+
+.categorias-de-receitas{
+    background-color:var(--cor-laranjaescuro);
+    height: 10vh;
+    width: 70%;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    transform: rotate(-1deg);
+   
+}
+
+.categorias-de-receitas ul {
+  display: flex;
+  margin: 1rem;
+  padding: 0 2rem;
+  background-color:white;
+ 
+}
+
+.categorias-de-receitas li {
+  color:var(--cor-laranjaescuro);
+  margin: 1rem;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.5s, transform 0.5s;
+  padding: 0.5rem;
+  border-radius: 8px;
+
+}
+
+.categorias-de-receitas li:hover{
+    background-color: var(--cor-laranjaescuro);
+    color: white;
+  
+  
+}
+
